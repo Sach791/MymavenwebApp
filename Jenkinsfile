@@ -24,7 +24,7 @@ pipeline {
             steps {
                 sh '''
                     # Local copy to Tomcat webapps directory
-                    sudo cp target/MymavenWebApp01.war /opt/tomcat/webapps/
+                    sudo cp target/MymavenwebApp.war /opt/tomcat/webapps/
                 '''
             }
         }
